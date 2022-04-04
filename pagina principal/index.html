@@ -4,102 +4,233 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="portafolio.css">
     <title>My Portafolio</title>
 </head>
-<body>
+<body >
     <!-- comienzo de header -->
     <header>
+       <div>
+           <!-- comienzo navegacion -->
         <nav>
-            <a href="">HOLA</a>
-            <a href="">CONOCIMIENTOS</a>
-            <a href="">PROYECTOS</a>
-            <a href="">CONTACTO</a>
+            <ul>
+            <li><a href="#hola">HOLA</a></li>
+            <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
+        </ul>
         </nav>
+        <!-- final navegacion -->
+    </div>
     </header>
     <!-- fin de header -->
     <!-- comienzo sobre mi -->
-    <section class="sobremi">
-        <figure>
-            <img >
-        </figure>
+    <section class="seccion-sobre-mi" id="hola">
         <div>
-            <h2>¡Hola! Soy</h2>
+            <div>
+            <p>¡Hola! Soy</p>
             <h1>Veronica Segovia</h1>
             <p>Mamá, desarrolladora y fan del crochet</p>
-            <button>LO QUE HAGO</button>
+            <a href="#proyectos" class="lo-que-hago">LO QUE HAGO</button>
+        </div>
+        <img src="imagenes/imagen.svg">
         </div>
     </section>
-    <!-- final sofre mi -->
+    <!-- final sobre mi -->
     <!-- comienzo mis conocimientos -->
-    <section class="conocimientos">
-        <h1>Mis conocimientos</h1>
+    <section class="sobre-mi" id="conocimientos">
+        <h2>Mis conocimientos</h2>
         <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Unde, corporis odio at<br> excepturi veniam fuga?</p>
         <div class="botones1">
-            <ul>
-                <li><button>HTML 5</button></li>
-                <li><button>CSS 3</button></li>
-                <li><button>Sass</button></li>
-                <li><button>JavaScript</button></li>
-                <li><button>React</button></li>
-                <li><button>GIT</button></li>
-            </ul>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-sass"></i>
+                <p>Saas</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-git-alt"></i>
+                <p>GIT</p>
+            </div>
         </div>
     </section>
      <!-- final mis conocimientos -->
      <!-- comienzo mis proyectos -->
-     <section class="proyectos">
-         <div class="franja">
-             <h1>"</h1>
+     <section class="franja">
+         <div class="franja-color">
+             <i class="fa-solid fa-quote-right"></i>
              <p>
                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam ea nemo similique<br> in consequatur nesciunt alias quia. Voluptates eaque odit<br> sit quibusdam aut animi itaque mollitia tempore<br> cum, veritatis soluta.
              </p>
-             <h2>Someone</h2>
+             <h2 class="text-franja">Someone</h2>
          </div>
+        </section>
+        <section class="sec-proyectos" id="proyectos">
          <div>
-             <h1>Mis proyectos</h1>
+             <h2>Mis proyectos</h2>
              <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Maiores, ipsa saepe rem<br> similique sint voluptas?</p>
-             <ul>
-                 <li><button>Porfolio</button></li>
-                 <li><button>Generador de memes</button></li>
-                 <li><button>Match 3</button></li>
-                 <li><button>Contador de gastos</button></li>
-                 <li><button>Administrador de reuniones</button></li>
-                 <li><button>Todo app</button></li>
-                 <li><button>Buscador de películas</button></li>
-             </ul>
+             <!-- cuadros de proyectos -->
+             <div class="cuadrosP">
+                 <a href="#">
+                     <img src="imagenes/imagen.svg" class="img">
+                     <p>Portafolio</p>
+                 </a>
+                 <a href="#">
+                     <img src="imagenes/memes.svg" class="img">
+                     <p>Memes</p>
+                 </a>
+                 <a href="#">
+                    <img src="imagenes/gamer.svg" class="img">
+                    <p>GAMER</p>
+                 </a>
+                 <a href="#">
+                     <img src="imagenes/financias.svg" class="img">
+                     <p>Financias</p>
+                 </a>
+                 <a href="#">
+                     <img src="imagenes/organizador.svg" class="img">
+                     <p>Organizador</p>
+                 </a>
+                 <a href="#">
+                     <img src="imagenes/app.svg">
+                     <p>Todo App</p>
+                 </a>
+                 <a href="#">
+                     <img src="imagenes/peli.svg">
+                     <p>Buscador de películas</p>
+                 </a>
+             </div>
          </div>
      </section>
      <!-- final mis proyectos -->
      <!-- comienzo contactame -->
-     <section class="contacto">
-         <div class="contactame">
-             <h1>Contactame</h1>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis incidunt ad repellat nemo natus. Asperiores, quaerat quae dolorum exercitationem eum consequatur amet perspiciatis minima non deleniti unde nam expedita ullam similique harum temporibus ea atque vitae est et quas culpa? Nihil maiores, voluptates eaque amet praesentium officia quisquam est! A.</p>
-             <a href="">@verseg</a>
-             <a href="">veroseg</a>
-             <a href="">veronicasegovia</a>
-             <a href="">veronica.segovia@gmail.com</a>
-         </div>
-         <div class="escribime">
-             <button>Enviar</button>
+     <section class="contacto" id="contact">
+         <div class="contact-container">
+             <div class="contactame">
+                 <section class="column-contactame">
+                     <h2 class="contact-titulo"> Contactame</h2>
+                     <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Tempore ex facilis minus placeat<br> explicabo esse perspiciatis, fugit consequatur cumque rem quas<br> enim quibusdam accusantium similique laborum, aperiam quisquam<br> itaque. Voluptatem necessitatibus aperiam quae id praesentium.</p>
+                     <!-- links de referencia -->
+                     <section class="links">
+                         <ul class="contact-links">
+                             <li class="contact-icons">
+                                 <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    @VeroSeg
+                                 </a>
+                             </li>
+                             <li class="contact-icons">
+                                <a href="">
+                                    <i class="fa-brands fa-github-alt"></i>
+                                   VeronicaSegovia
+                                </a>
+                            </li>
+                            <li class="contact-icons">
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                   VeronicaSegovia
+                                </a>
+                            </li>
+                            <li class="contact-icons">
+                                <a href="">
+                                    <i class="fa-solid fa-envelope"></i>
+                                   veronica.c.segovia@gmail.com
+                                </a>
+                            </li>
+                         </ul>
+                     </section>
+                    </section>
+                    <section class="contact-column">
+                        <h2 class="escribime">Escribime</h2>
+                        <form>
+                            <div class="nom-ape">
+                            <div class="nom">
+                                <label for="nombre">Nombre *</label>
+                                <input type="text" name="Nombre" id="nombre" class="input-nombre input-control" placeholder="p. ej.:Veronica" aria-label="Nombre" required>
+                            </div>
+                            <div class="nom-ape">
+                                <label for="apellido">Apellido *</label>
+                                <input type="text" name="Apellido" id="apellido" class="input-apellido input-control" placeholder="p. ej.: Segovia" aria-label="Apellido" required>
+                            </div>
+                            <div class="nom-ape">
+                                <label for="mail">Email *</label>
+                                <input type="text" name="Email" id="mail" class="input-control" placeholder="p. ej.: veronica.c.segovia@gmail.com" aria-label="Email" required>
+                            </div>
+                            <div class="nom-ape">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="Mensaje" id="mensaje" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aquí"
+                                aria-label="Mensaje" required></textarea>
+                            </div>
+                        </div>
+                        </form>
+                    </section>
+             </div>
          </div>
      </section>
      <!-- final contactame -->
      <!-- comienzo footer -->
 
      <footer>
-         <nav>
-            <a href="">HOLA</a>
-            <a href="">CONOCIMIENTOS</a>
-            <a href="">PROYECTOS</a>
-            <a href="">CONTACTO</a>
+         <!-- navegador footer -->
+         <nav class="f-nav">
+             <ul class="menu-nav-f">
+                 <li class="f-nav-item">
+                     <a href="#hola" class="f-nav-link">HOLA</a>
+                 </li>
+                 <li class="f-nav-item">
+                    <a href="#conocimientos" class="f-nav-link">CONOCIMIENTOS</a>
+                 </li>
+                 <li class="f-nav-item">
+                    <a href="#proyectos" class="f-nav-link">PROYECTOS</a>
+                 </li>
+                 <li class="f-nav-item">
+                    <a href="#contact" class="f-nav-link">CONTACTO</a>
+                 </li>
+             </ul>
          </nav>
-         <button><a href="">@verseg</a></button>
-         <button><a href="">veroseg</a></button>
-         <button><a href="">veronicasegovia</a></button>
-         <button><a href="">veronica.segovia@gmail.com</a></button>
-         <p>Hecho con &#x2764;&#xfe0f; por Vero</p>
+         <!-- navegador footer -->
+        <ul>
+            <li class="f-social-item">
+                <a href class="f-social-link twitter-link" aria-label="Twitter">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+            </li>
+
+            <li class="f-social-item">
+                <a href class="f-social-link github-link" aria-label="Github">
+                <i class="fa-brands fa-github-alt"></i>
+            </a>
+            </li>
+
+            <li class="f-social-item">
+                <a href class="f-social-link linkedin-link" aria-label="Linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+            </li>
+
+            <li class="f-social-item">
+                <a href class="f-social-link email-link" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+        </a>
+            </li>
+        </ul>
+         " Hecho con &#x2764;&#xfe0f; por Vero "
         </footer>
         <!-- final footer -->
 
