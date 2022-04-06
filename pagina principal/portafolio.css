@@ -1,0 +1,268 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: white;
+  font-size: larger;
+  width: 100%;
+  padding: 38px 0;
+  box-shadow: 0px 8px 10px -8px rgb(134, 134, 134);
+  position: fixed;
+  top: 0;
+  transition: 0.4s;
+}
+
+.navbar {
+  margin-left: 450px;
+  width: 1350px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-menu {
+  list-style: none;
+  width: 1000px;
+  height: 40px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  padding: 15px;
+  line-height: 2.5;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.color {
+  text-decoration: none;
+  padding: 0px 20px;
+  border-radius: 20px;
+  background-color: rgb(78, 170, 116);
+  color: white;
+}
+
+.seccion-sobre-mi {
+  margin-top: 450px;
+  height: 30em;
+  display: flex;
+  justify-content: center;
+}
+
+.contenido {
+  width: 1200px;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texto {
+  font-family: "Montserrat", sans-serif;
+  width: 600px;
+  height: 500px;
+}
+
+.imagen1 {
+  margin-top: -100px;
+  max-width: 800px;
+  width: 700px;
+}
+
+.primer-p {
+  font-size: 28px;
+  font-weight: 800;
+}
+.primer-h1 {
+  margin-top: -15px;
+  color: rgb(100, 184, 100);
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.segundo-p {
+  margin-top: -25px;
+  font-size: 20px;
+}
+
+.lo-que-hago {
+  background-color: rgb(100, 184, 100);
+  padding: 13px;
+  margin-top: 45px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(216, 209, 209);
+}
+
+.sobre-mi {
+    text-align: center;
+    height: 58em;
+}
+
+.titulo-conocimientos {
+    display: block;
+    padding: 40px;
+    font-size: 60px;
+}
+.p-conocimiento {
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.botones1 {
+    width: 900px;
+    height: 470px;
+    margin-top: 40px;
+    margin-left: 120px;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botons {
+    border: 1px solid rgb(223, 221, 221);
+    font-size: 25px;
+    border-radius: 10px;
+    height: 220px;
+    margin-left: 13px;
+}
+
+.b1 {
+    padding: 60px 70px 60px 65px;
+    width: 100px;
+    
+}
+
+/* .b2 {
+    padding: 75px 90px 78px 85px;
+    width: 80px;
+}
+
+.b3 {
+    padding: 75px 90px 78px 85px;
+    width: 80px;
+}
+
+.b4 {
+    padding: 75px 90px 78px 85px;
+    width: 80px;
+}
+
+.b5 {
+    padding: 75px 90px 78px 85px;
+    width: 80px;
+}
+
+.b6 {
+    padding: 75px 90px 78px 85px;
+    width: 80px;
+}
+  */
+#item1 {
+    font-size: 80px;
+    color: orangered;
+}
+#item2 {
+    font-size: 80px;
+    color: rgb(35, 173, 219);
+}
+#item3 {
+    font-size: 80px;
+    color: rgb(216, 140, 166);
+}
+#item4 {
+    font-size: 80px;
+}
+#item5 {
+    font-size: 80px;
+}
+#item6 {
+    font-size: 80px;
+}
+
+.franja {
+    background-color: rgb(100, 184, 100);
+    padding: 70px;
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#comillas {
+    font-size: 100px;
+}
+
+.p-franja {
+    font-size: 21px;
+    margin-top: 50px;
+}
+
+.text-franja {
+    font-size: 40px;
+    margin-top: 80px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+ .text-proyectos {
+    font-size: 30px;
+ }
+
+.p-proyectos {
+    font-size: 20px;
+}
+
+
+.sec-proyectos {
+    margin-left: 400px;
+    height: 1400px;
+    width: 1100px;
+    text-align: center;
+}
+.cuadrosP {
+    
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+.img {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 320px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+img {
+    max-width: 300px;
+    max-height: 190px;
+}
+
+.text-img {
+    font-size: 20px;
+    color: black;
+}
