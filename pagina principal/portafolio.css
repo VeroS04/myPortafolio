@@ -77,9 +77,8 @@ a {
 }
 
 .imagen1 {
-  margin-top: -100px;
-  max-width: 800px;
-  width: 700px;
+  width: 1500px;
+  height: 900px;
 }
 
 .primer-p {
@@ -145,6 +144,10 @@ a {
     padding: 60px 70px 60px 65px;
     width: 100px;
     
+}
+
+.botons:hover {
+  border-color: rgb(100, 184, 100);
 }
 
 /* .b2 {
@@ -243,7 +246,11 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
 }
-    
+
+.img:hover{
+  border-color: rgb(100, 184, 100);
+}
+
 .img {
     border: 1px solid gainsboro;
     border-radius: 10px;
