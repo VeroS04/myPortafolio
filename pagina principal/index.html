@@ -4,100 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="portafolio.css" />
     <title>My Portafolio</title>
   </head>
   <body>
     <!-- comienzo de header -->
-    <header>
+    <header class="header">
       <nav class="navbar">
         <!-- comienzo navegacion -->
-        <ul class="nav-menu">
-          <li class="nav-item"><a href="#hola">HOLA</a></li>
-          <li class="nav-item"><a href="#conocimientos">CONOCIMIENTOS</a></li>
-          <li class="nav-item"><a href="#proyectos">PROYECTOS</a></li>
-          <li class="nav-item"><a href="#contact" class="color">CONTACTO</a></li>
-        </ul>
+          <div class="cajas-nav">
+          <div><a href="#hola" class="nav-item">HOLA</a></div>
+          <div><a href="#conocimientos" class="nav-item">CONOCIMIENTOS</a></div>
+          <div><a href="#proyectos" class="nav-item">PROYECTOS</a></div>
+          <div><a href="#contact" class="color" +>CONTACTO</a></div>
+        </div>
       </nav>
       <!-- final navegacion -->
     </header>
     <!-- fin de header -->
+
     <!-- comienzo sobre mi -->
-    <section class="seccion-sobre-mi" id="hola">
+    <section class="saludo" id="hola">
       <div class="contenido" >
         <div class="texto">
           <p class="primer-p">¡Hola! Soy</p>
           <h1 class="primer-h1">Veronica Segovia</h1>
-          <p class="segundo-p">Mamá, desarrolladora y fan del crochet</p>
+          <p class="segundo-p">Desarrolladora principiante</p>
           <a href="#proyectos" class="lo-que-hago">LO QUE HAGO</a>
         </div>
-        <img class="imagen1" src="imagenes/imagen.svg" />
+        <div class="imagen-saludo">
+        <img class="imagen1" img src="imagenes/saludo1.svg"/>
+      </div>
       </div>
     </section>
     <!-- final sobre mi -->
+
     <!-- comienzo mis conocimientos -->
-    <section class="sobre-mi" id="conocimientos">
+    <section class="mis-conocimientos" id="conocimientos">
+      <div class="texto-conocimientos">
       <h2 class="titulo-conocimientos">Mis conocimientos</h2>
       <p class="p-conocimiento">
         Lorem, ipsum dolor sit amet<br />consectetur adipisicing elit. Unde,
         corporis <br />odio at excepturi veniam fuga?
       </p>
-      <div class="botones1">
-        <div class="botons">
+    </div>
+    <!-- comienzo botones conocimientos -->
+      <div class="cada-boton">
           <div class="b1">
-            <i class="fa-brands fa-html5" id="item1"></i>
+            <div class="icono-conocimiento"><i class="devicon-html5-plain colored"></i></div>
             <p>HTML 5</p>
           </div>
-        </div>
-        <div class="botons">
           <div class="b1">
-            <i class="fa-brands fa-css3-alt" id="item2"></i>
+            <div class="icono-conocimiento"><i class="devicon-css3-plain colored"></i></div>
             <p>CSS 3</p>
           </div>
-        </div>
-        <div class="botons">
           <div class="b1">
-            <i class="fa-brands fa-sass" id="item3"></i>
+            <div class="icono-conocimiento"><i class="devicon-sass-original colored"></i></div>
             <p>Saas</p>
-          </div>
         </div>
-        <div class="botons">
           <div class="b1">
-            <i class="fa-brands fa-js" id="item4"></i>
+            <div class="icono-conocimiento"><i class="devicon-javascript-plain colored"></i></div>
             <p>JavaScript</p>
           </div>
-        </div>
-        <div class="botons">
           <div class="b1">
-            <i class="fa-brands fa-react" id="item5"></i>
+            <div class="icono-conocimiento"><i class="devicon-react-original colored"></i></div>
             <p>React</p>
           </div>
-        </div>
-        <div class="botons">
           <div class="b1">
-            <i class="fa-brands fa-git-alt" id="item6"></i>
+            <div class="icono-conocimiento"><i class="devicon-git-plain colored"></i></div>
             <p>GIT</p>
           </div>
         </div>
+        <!-- final botones conocimientos -->
       </div>
     </section>
     <!-- final mis conocimientos -->
     <!-- comienzo mis proyectos -->
+    <!-- comienzo franja -->
     <section class="franja">
       <div class="franja-color">
-        <i class="fa-solid fa-quote-right" id="comillas"></i>
+        <div class="comillas"><i class="fa-solid fa-quote-right"></i></div>
         <p class="p-franja">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
           officia, <br />minima dolore veniam animi tempora aliquam adipisci
@@ -108,9 +98,11 @@
         <h2 class="text-franja">Someone</h2>
       </div>
     </section>
+    <!-- final franja -->
+    <!-- comienzo proyectos -->
     <section class="sec-proyectos" id="proyectos">
       <div class="text-proyectos">
-        <h2>Mis proyectos</h2>
+        <h2 class="titulo-proyectos">Mis proyectos</h2>
         <p class="p-proyectos">
           Lorem ipsum dolor sit, amet consectetur<br />
           adipisicing elit. Maiores, ipsa saepe rem<br />
@@ -119,23 +111,23 @@
       </div>
         <!-- cuadros de proyectos -->
         <div class="cuadrosP">
-          <div class="img"><img src="imagenes/imagen.svg"/><a href="#" class="text-img">
+          <div class="img"><img src="imagenes/Captura.png"/><a href="#" class="text-img">
             Portafolio</a>
         </div>
-          <div class="img"><img src="imagenes/memes.svg"/><a href="#" class="text-img">
-            Memes</a>
+          <div class="img"><img src="imagenes/memes1.svg"/><a href="#" class="text-img">
+            Generador de Memes</a>
         </div>
-          <div class="img"><img src="imagenes/gamer.svg"/><a href="#" class="text-img">
-            GAMER</a>
+          <div class="img"><img src="imagenes/match.svg"/><a href="#" class="text-img">
+            <p>Match 3</p></a>
         </div>
-          <div class="img"><img src="imagenes/financias.svg"/><a href="#" class="text-img">
-            Financias</a>
+          <div class="img"><img src="imagenes/financia.svg"/><a href="#" class="text-img">
+            Controlador de gastos</a>
         </div>
-          <div class="img"><img src="imagenes/organizador.svg"/><a href="#" class="text-img">
-            Organizador</a>
+          <div class="img"><img src="imagenes/app3.svg"/><a href="#" class="text-img">
+            Administrador de reuniones</a>
         </div>
           <div class="img"><img src="imagenes/app.svg"/><a href="#" class="text-img">
-            Todo App</a>
+            Todo app</a>
         </div>
           <div class="img"><img src="imagenes/peli.svg"/><a href="#" class="text-img">
             Buscador de películas</a>
@@ -147,104 +139,118 @@
     <!-- comienzo contactame -->
     <section class="contacto" id="contact">
       <div class="contact-container">
-        <div class="contactame">
           <section class="column-contactame">
+            <div class="colum-contacto">
             <h2 class="contact-titulo">Contactame</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur<br />
-              adipisicing elit. Tempore ex facilis minus placeat<br />
-              explicabo esse perspiciatis, fugit consequatur cumque rem quas<br />
-              enim quibusdam accusantium similique laborum, aperiam quisquam<br />
-              itaque. Voluptatem necessitatibus aperiam quae id praesentium.
+            <p class="text-contacto">
+              Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore ex facilis minus placeat
+              explicabo esse perspiciatis, fugit consequatur cumque rem quas
+              enim quibusdam accusantium similique laborum, aperiam quisquam.
             </p>
             <!-- links de referencia -->
             <section class="links">
-              <ul class="contact-links">
-                <li class="contact-icons">
-                  <a href="">
-                    <i class="fa-brands fa-twitter"></i>
+              <div class="contact-links">
+                <div class="contact-icons">
+                  <a href="" class="color-item">
+                    <i class="fa-brands fa-twitter" style="color: rgb(100, 184, 100)"></i>
                     @VeroSeg
                   </a>
-                </li>
-                <li class="contact-icons">
-                  <a href="">
-                    <i class="fa-brands fa-github-alt"></i>
+                </div>
+                <div class="contact-icons">
+                  <a href="" class="color-item">
+                    <i class="fa-brands fa-github-alt" style="color: rgb(100, 184, 100)"></i>
                     VeronicaSegovia
                   </a>
-                </li>
-                <li class="contact-icons">
-                  <a href="">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="contact-icons">
+                  <a href="" class="color-item">
+                    <i class="fa-brands fa-linkedin-in" style="color: rgb(100, 184, 100)"></i>
                     VeronicaSegovia
                   </a>
-                </li>
-                <li class="contact-icons">
-                  <a href="">
-                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-icons">
+                  <a href="" class="color-item">
+                    <i class="fa-solid fa-envelope" style="color: rgb(100, 184, 100)"></i>
                     veronica.c.segovia@gmail.com
                   </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </section>
+          
+            <!-- comienzo escribime -->
           </section>
-          <section class="contact-column">
+          <section class="contact-escribime">
+            <div class="column-escribime">
             <h2 class="escribime">Escribime</h2>
-            <form>
+            <!-- comienzo formulario -->
+            <form class="formulario">
               <div class="nom-ape">
+
                 <div class="nom">
                   <label for="nombre">Nombre *</label>
                   <input
                     type="text"
                     name="Nombre"
                     id="nombre"
-                    class="input-nombre input-control"
+                    class="text input-nombre input-control"
                     placeholder="p. ej.:Veronica"
                     aria-label="Nombre"
                     required
                   />
                 </div>
                 <div class="nom-ape">
+                  <div class="ape">
                   <label for="apellido">Apellido *</label>
                   <input
                     type="text"
                     name="Apellido"
                     id="apellido"
-                    class="input-apellido input-control"
+                    class="text input-apellido input-control"
                     placeholder="p. ej.: Segovia"
                     aria-label="Apellido"
                     required
                   />
                 </div>
+                </div>
+              </div>
+
+              <div class="mail-mensaje">
                 <div class="nom-ape">
+                  <div class="mail">
                   <label for="mail">Email *</label>
                   <input
                     type="text"
                     name="Email"
                     id="mail"
-                    class="input-control"
+                    class="text1 input-control"
                     placeholder="p. ej.: veronica.c.segovia@gmail.com"
                     aria-label="Email"
                     required
                   />
                 </div>
+                </div>
                 <div class="nom-ape">
+                  <div class="mensaje">
                   <label for="mensaje">Mensaje</label>
                   <textarea
                     name="Mensaje"
                     id="mensaje"
                     cols="30"
                     rows="10"
-                    class="input-control"
+                    class="text3 input-control"
                     placeholder="Escriba un mensaje aquí"
                     aria-label="Mensaje"
                     required
                   ></textarea>
                 </div>
+                </div>
               </div>
+              <button class="enviar">Enviar</button>
             </form>
+          </div>
           </section>
         </div>
-      </div>
     </section>
     <!-- final contactame -->
     <!-- comienzo footer -->
