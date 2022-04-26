@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="portafolio-practica.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -11,279 +16,231 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="portafolio.css" />
-    <title>My Portafolio</title>
+    <title>Portafolio</title>
   </head>
   <body>
-    <!-- comienzo de header -->
-    <header>
     <header class="header">
-      <nav class="navbar">
-        <!-- comienzo navegacion -->
-          <div class="cajas-nav">
-          <div><a href="#hola" class="nav-item">HOLA</a></div>
-          <div><a href="#conocimientos" class="nav-item">CONOCIMIENTOS</a></div>
-          <div><a href="#proyectos" class="nav-item">PROYECTOS</a></div>
-          <div><a href="#contact" class="color" +>CONTACTO</a></div>
+      <nav class="nav-bar">
+        <div class="bottons-nav">
+          <a class="otros" href="#hola">HOLA</a>
+        </div>
+        <div class="bottons-nav">
+          <a class="otros" href="#conocimientos">CONOCIMIENTOS</a>
+        </div>
+        <div class="bottons-nav">
+          <a class="otros" href="#proyectos">PROYECTOS</a>
+        </div>
+        <div class="bottons-nav">
+          <a class="boton-color" href="#contacto">CONTACTO</a>
         </div>
       </nav>
-      <!-- final navegacion -->
     </header>
-    <!-- fin de header -->
-
-    <!-- comienzo sobre mi -->
-    <section class="seccion-sobre-mi" id="hola">
-      <div class="contenido" >
-        <div class="texto">
-          <p class="primer-p">¡Hola! Soy</p>
-          <h1 class="primer-h1">Veronica Segovia</h1>
-          <p class="segundo-p">Desarrolladora principiante</p>
-          <a href="#proyectos" class="lo-que-hago">LO QUE HAGO</a>
+    <!-- fin header -->
+    <button class="barra-scrol">
+      <i class="scrool"></i>
+    </button>
+    <!-- inicio saludo -->
+    <section class="saludo" id="hola">
+      <div class="container-saludo">
+        <div class="text-saludo">
+          <p class="mi-hola"><strong>¡Hola! Soy</strong></p>
+          <h1 class="mi-nombre">Veronica Segovia</h1>
+          <p class="mi-descripcion">Desarrolladora principiante</p>
+          <a class="boton-a-proyectos" href="#proyectos">LO QUE HAGO</a>
         </div>
-        <div class="imagen-saludo">
-        <img class="imagen1" img src="///C:/Users/PCra/Downloads/undraw_programmer_re_owql%20(2).svg"/>
-      </div>
+        <img class="img-saludo" src="saludo.svg" />
       </div>
     </section>
-    <!-- final sobre mi -->
 
-    <!-- comienzo mis conocimientos -->
-    <section class="sobre-mi" id="conocimientos">
-      <div class="texto-conocimientos">
-      <h2 class="titulo-conocimientos">Mis conocimientos</h2>
-      <p class="p-conocimiento">
-        Lorem, ipsum dolor sit amet<br />consectetur adipisicing elit. Unde,
-        corporis <br />odio at excepturi veniam fuga?
-      </p>
-      </div>
-      <!-- comienzo botones conocimientos -->
-        <div class="cada-boton">
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-html5-plain colored"></i>
-            </div>
-            <p>HTML 5</p>
+    <section class="mis-conocimientos" id="conocimientos">
+      <div class="container-conocimientos">
+        <h2 class="titulo-conocimientos">Mis conocimientos</h2>
+        <p class="descripcion-conocimientos">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+          quisquam ab, voluptas tempora dolore odio quaerat rerum cum quod
+          voluptatum.
+        </p>
+        <div class="container-cuadros">
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            />
+            HTML 5
           </div>
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-css3-plain colored"></i>
-            </div>
-            <p>CSS 3</p>
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            />
+            CSS 3
           </div>
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-sass-original colored"></i>
-            </div>
-            <p>Saas</p>
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+            />
+            Sass
           </div>
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-javascript-plain colored"></i>
-            </div>
-            <p>JavaScript</p>
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            />
+            JavaScript
           </div>
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-react-original colored"></i>
-            </div>
-            <p>React</p>
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
+            React
           </div>
-
-          <div class="b1">
-            <div class="icono-conocimiento">
-              <i class="devicon-git-plain colored"></i>
-            </div>
-            <p>GIT</p>
+          <div class="cuadro-item">
+            <img
+              class="img-item"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            />
+            GIT
           </div>
         </div>
+      </div>
     </section>
-    <!-- final botones conocimientos -->
-    <!-- final mis conocimientos -->
+    <!-- fin conocimientos -->
 
-    <!-- comienzo mis proyectos -->
-
-    <!-- comienzo franja -->
+    <!-- inicio franja -->
     <section class="franja">
-      <div class="franja-color">
-        <div class="comillas">
-          <i class="fa-solid fa-quote-right" id="quote"></i>
-        </div>
-        <p class="p-franja">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-          officia, <br />minima dolore veniam animi tempora aliquam adipisci</p>
-        <h2 class="text-franja">Someone</h2>
+      <div class="quote">
+        <i class="fa-solid fa-quote-right"></i>
+        <blockquote>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+            officiis repellat ut deleniti cumque animi ad maxime accusamus fuga
+            distinctio vitae possimus labore dolor ratione pariatur. Blanditiis
+            nostrum tempora facere fugiat illo animi, consectetur incidunt quis
+            eius ullam inventore expedita accusantium ipsa aspernatur, ad,
+            exercitationem alias voluptate earum quia. Magnam?
+          </p>
+        </blockquote>
+        <h2 class="someone">Someone</h2>
       </div>
     </section>
     <!-- final franja -->
 
-    <section class="sec-proyectos" id="proyectos">
-      <div class="text-proyectos">
+    <!-- icicio proyectos -->
+
+    <section class="mis-proyectos" id="proyectos">
+      <div class="container-proyectos">
         <h2 class="titulo-proyectos">Mis proyectos</h2>
-        <p class="p-proyectos">
-          Lorem ipsum dolor sit, amet consectetur<br />
-          adipisicing elit. Maiores, ipsa saepe rem<br /></p>
-      </div>
-        <!-- cuadros de proyectos -->
-        <div class="cuadrosP">
-
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_programmer_re_owql%20(2).svg"/>
-           <p>Portafolio</p></a>
-      
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_prototyping_process_re_7a6p.svg"/>
-            <p>Generador de Memes</p></a>
-        
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_old_day_-6-x25.svg"/>
-            <p>Match 3</p></a>
-
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_progress_data_re_rv4p.svg"/>
-          <p>Controlador de gastos</p></a>
-
-            <a href="#" class="text-img">
-            <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_booked_re_vtod.svg"/>
-           <p>Administrador de reuniones</p></a>
-
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_app_data_re_vg5c.svg"/>
-            <p>Todo app</p></a>
-
-            <a href="#" class="text-img">
-              <img class="img-cuadro" src="///C:/Users/PCra/Downloads/undraw_horror_movie_3988.svg"/>
-            <p>Buscador de películas</p></a>
-
+        <p class="texto-proyectos">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint numquam
+          officiis velit quisquam, alias eum!
+        </p>
+        <div class="cuadros-proyectos">
+          <a href="" class="boton-proyectos">
+            <img class="img-proyectos" src="saludo.svg" /><br /><br /><br />
+            <strong>Portafolio</strong>
+          </a>
+          <a href="" class="boton-proyectos">
+            <img class="img-proyectos" src="memes.svg" /><br /><br />
+           <strong>Generador de memes</strong> 
+          </a>
+          <a href="" class="boton-proyectos">
+            <img class="img-proyectos" src="match.svg" /><br /><br /><br />
+            <strong>Match 3</strong>
+          </a>
+          <a href="" class="boton-proyectos">
+            <img
+              class="img-proyectos"
+              src="gastos.svg"
+            /><br /><br /><br /><br /><br /><br />
+            <strong>Controlador de gastos</strong>
+          </a>
+          <a href="" class="boton-proyectos">
+            <img
+              class="img-proyectos"
+              src="eventos.svg"
+            /><br /><br /><br /><br />
+            <strong>Administrador de reuniones</strong>
+          </a>
+          <a href="" class="boton-proyectos">
+            <img class="img-proyectos" src="app.svg" /><br /><br />
+            <strong>Todo app</strong>
+          </a>
+          <a href="" class="boton-proyectos">
+            <img class="img-proyectos" src="peliculas.svg" /><br /><br /><br />
+            <strong>Buscador de películas</strong>
+          </a>
         </div>
-        <!-- final cuadros de proyectos -->
-        </section>
-        <!-- final proyectos -->
+      </div>
+    </section>
 
-    <!-- comienzo contactame -->
+    <!-- final proyectos -->
 
-    <section class="contacto" id="contact">
-        <div class="contactame">
-          <div class="columna-contacto">
-            <div class="color-contacto">
-            <div class="text-contacto">
-            <h2 class="titulo-contacto">Contactame</h2>
-            <p class="p-contacto">
-              Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Tempore ex facilis minus placeat
-              explicabo esse perspiciatis, fugit consequatur cumque rem quas
-              enim quibusdam accusantium similique laborum, aperiam quisquam.
+    <!-- inicio contacto -->
+
+    <section class="mi-contacto" id="contacto">
+      <div class="columna-contacto">
+        <div class="container-contacto">
+          <section class="contacto">
+            <h1 class="titulo-contacto">Contactame</h1>
+            <p class="texto-contacto">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              esse omnis quibusdam saepe molestias at sequi dolore quo
+              asperiores. Deleniti.
             </p>
-            </div>
-            <!-- links de referencia -->
             <div class="links">
-              <div class="iconos">
-                  <a href="https://twitter.com/veronica04128" class="color-item">
-                    <i class="fa-brands fa-twitter"></i>
-                    @veronica04128
-                  </a>
-               
-                  <a href="https://github.com/VeroS04" class="color-item">
-                    <i class="fa-brands fa-github-alt"></i>
-                    VeronicaSegovia
-                  </a>
+              <a href="https://twitter.com/veronica04128" class="img-item-contacto">
+                <i class="fa-brands fa-twitter"></i>
+                @veronica04128
+              </a>
 
-                  <a href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="color-item">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    Veronica Segovia
-                  </a>
+              <a href="https://github.com/VeroS04" class="img-item-contacto">
+                <i class="fa-brands fa-github-alt"></i>
+                VeronicaSegovia
+              </a>
 
-                  <a href="https://mail.google.com/" class="color-item">
-                    <i class="fa-solid fa-envelope"></i>
-                    veronica.c.segovia@gmail.com
-                  </a>
-              </div>
+              <a
+                href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-contacto"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+                Veronica Segovia
+              </a>
+
+              <a href="https://mail.google.com/" class="img-item-contacto">
+                <i class="fa-solid fa-envelope"></i>
+                veronica.c.segovia@gmail.com
+              </a>
             </div>
-          </div>
-        </div>
-            <!-- comienzo escribime -->
-          <section class="escribime">
-            <div class="columna-escribime">
-              <div class="titulo-escribime">
-              <h2>Escribime</h2>
-            </div>
-            <!-- comienzo formulario -->
-            <form class="formulario">
-            <div class="contenido-form">
-            <div class="nombre">
-            <label for="nombre">Nombre*</label>
-            <input class="nom" type="text" id="nombre" placeholder="p. ej: Veronica" />
-            </div>
-            <div class="apellido">
-            <label for="apellido">Apellido*</label>
-            <input class="ape" type="text" id="apellidos" placeholder="p. ej: Segovia" />
-            </div>
-            <div class="e-mail">
-            <label for="mail">Email*</label>
-            <input class="mail" type="text" id="mail" size="45" placeholder="p. ej: veronica.segovia@gmail.com" />
-            </div>
-              <div class="mensaje">
-                <label for="mensaje">Mensaje*</label>
-                <textarea class="mensj" type="textara" id="mensaje" cols="40" rows="10" placeholder="Escribe un mensaje aquí" ></textarea>
-                </div>
-                </div>
-            <button type="submit" class="boton">Enviar</button>
-        </div>
-        </form>
-      
-            </div>
-            </section>           
-          
-        </div>
           </section>
-    <!-- final contactame -->
 
-    <!-- comienzo footer -->
-    <footer class="footer">
-      <nav class="navbar-footer">
+          <!-- inicio escribime -->
 
-          <div class="cajas-nav-footer">
-          <div class="boton-footer"><a href="#hola" class="nav-footer">HOLA</a></div>
-          <div class="boton-footer"><a href="#conocimientos" class="nav-footer">CONOCIMIENTOS</a></div>
-          <div class="boton-footer"><a href="#proyectos" class="nav-footer">PROYECTOS</a></div>
-          <div class="boton-footer"><a href="#contact" class="nav-footer" +>CONTACTO</a></div>
-        </div>
-      </nav>
-      <div class="links-footer">
-        <div class="iconos-footer">
-            <a href="" class="color-item-footer">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-         
-            <a href="" class="color-item-footer">
-              <i class="fa-brands fa-github-alt"></i>
-            </a>
-
-            <a href="" class="color-item-footer">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-
-            <a href="" class="color-item-footer">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
+          <section class="mi-escribime">
+            <h1 class="titulo-escribime">Escribime</h1>
+            <form class="form-escribime">
+              <div class="espacio-datos">
+                <div class="espacio-nombre">
+                  <label class="espacio-escribime" for="nombre">Nombre*</label>
+                  <input class="input-nombre" size="30%" type="text" id="nombre" placeholder="p. ej.:Veronica"/>
+                </div>
+                <div class="espacio-apellido">
+                  <label class="espacio-escribime" for="apellidos">Apellidos*</label>
+                  <input class="input-nombre" size="30%" type="text" id="apellidos" placeholder="p. ej.:Segovia"/>
+                </div>
+              </div>
+              <div class="espacio-mail">
+                <label class="espacio-escribime" for="mail">Email*</label>
+                <input class="input-nombre input-escribime" type="text" id="mail" placeholder="p. ej.:veronica.c.segovia@gmail.com"/>
+              </div>
+              <div class="espacio-mensaje">
+                <label class="espacio-escribime" for="mensaje">Mensaje*</label>
+                <textarea class="input-escribime" cols="56" rows="10" id="msg" name="mensaje" placeholder="Escriba un mensaje aquí">
+              </textarea>
+              </div>
+              <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+          </section>
         </div>
       </div>
-      <div>
-        <p class="ultimo-p">Hecho con &#x2764;&#xfe0f; por Veronica</p>
-      </div>
-    </footer>
-</body>
-</html>
+    </section>
