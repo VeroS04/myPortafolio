@@ -258,7 +258,12 @@ a {
 }
 
 .img-proyectos {
-  width: 15em;
+  width: 100%;
+}
+
+.img-screen {
+  margin-top: 10%;
+  margin-bottom: 25%;
 }
 
 .boton-proyectos:hover {
@@ -689,7 +694,7 @@ a {
   }
 
   .texto-proyectos .cuadros-proyectos  {
-    width: 80%;
+    width: 100%;
     margin-top: 2%;
   }
 
@@ -699,9 +704,11 @@ a {
     width: 100%;
   }
 
-  .img-proyectos {
-    width: 15em;
+  .img-screen {
+    margin-bottom: 10%;
+    margin-top: 15%;
   }
+
 
   .mi-contacto {
     padding: 0%;
@@ -723,4 +730,7 @@ a {
     width: 98%;
   }
 
+  .otros-footer {
+    font-size: 0.95em;
+  }
 }
