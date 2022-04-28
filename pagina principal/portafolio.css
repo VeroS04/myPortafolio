@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -28,28 +28,27 @@
 
 .otros {
   color: black;
-  padding: 0.5em 1.5em;
-  border-radius: 2em;
+  padding: 0.2em 0.5em;
 }
 
 .boton-color {
   color: white;
   padding: 0.5em 2em;
   border-radius: 2em;
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
 }
 
 .otros:active {
-  border: solid 1px rgb(98, 198, 125);
-  box-shadow: -1px -1px 10px 4px rgb(98, 198, 125);
+  border: solid 1px rgb(118, 222, 196);
+  box-shadow: -1px -1px 10px 4px rgb(149, 228, 208);
 }
 
 .boton-color:hover {
-  background-color: rgb(126, 196, 144);
+  background-color: rgb(122, 207, 186);
 }
 
 .boton-color:active {
-  box-shadow: -1px -1px 10px 4px rgb(98, 198, 150);
+  box-shadow: -1px -1px 10px 4px rgb(149, 228, 208);
 }
 
 /* fin header */
@@ -89,15 +88,14 @@ a {
 
 .mi-hola {
   font-size: 2em;
-
   margin-bottom: 0.4em;
   margin-top: 20%;
 }
 
 .mi-nombre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3.6em;
-  color: rgb(98, 198, 125);
-
+  color: rgb(86, 200, 152);
   margin-bottom: 0.4em;
 }
 
@@ -107,7 +105,7 @@ a {
 
 .boton-a-proyectos {
   padding: 1em 1.3em;
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
   color: white;
   border-radius: 5em;
 }
@@ -117,10 +115,14 @@ a {
   width: 50%;
 }
 
+.boton-a-proyectos:hover {
+  background-color: rgb(122, 207, 186);
+}
+
 /* inicio conocimientos */
 
 .mis-conocimientos {
-  background-color: rgb(243, 248, 241);
+  background-color: rgb(248, 255, 247);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -172,8 +174,8 @@ a {
 }
 
 .cuadro-item:hover {
-  color: rgb(98, 198, 125);
-  border: solid 1px rgb(98, 198, 125);
+  color: rgb(86, 200, 152);
+  border: solid 1px rgb(86, 200, 152);
 }
 
 /* final conocimientos */
@@ -182,7 +184,7 @@ a {
 
 .franja {
   color: white;
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
   padding: 6% 10%;
   width: 100%;
   display: flex;
@@ -260,15 +262,15 @@ a {
 }
 
 .boton-proyectos:hover {
-  color: rgb(98, 198, 125);
-  border: solid 1px rgb(98, 198, 125);
+  color: rgb(86, 200, 152);
+  border: solid 1px rgb(86, 200, 152);
 }
 /* fin proyectos */
 
 /* inicio contacto */
 
 .mi-contacto {
-  background-color: rgb(225, 229, 224);
+  background-color: rgb(248, 255, 247);
   padding: 0% 10% 2% 10%;
   width: 100%;
   display: flex;
@@ -312,6 +314,7 @@ a {
 .links {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 
 .img-item-contacto {
@@ -327,22 +330,22 @@ a {
 .fa-brands {
   padding: 2%;
   font-size: 1.1em;
-  color: rgb(98, 198, 125);
+  color: rgb(86, 200, 152);
 }
 
 .fa-envelope {
   padding: 2%;
   font-size: 1.1em;
-  color: rgb(98, 198, 125);
+  color: rgb(86, 200, 152);
 }
 
 .fa-brands:hover {
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
   color: white;
   border-radius: 50%;
 }
 .fa-envelope:hover {
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
   color: white;
   border-radius: 50%;
 }
@@ -373,23 +376,12 @@ a {
   justify-content: space-between;
 }
 
-.espacio-nombre {
+.espacio-nombre, .espacio-apellido  {
   display: flex;
   flex-direction: column;
 }
 
-.espacio-apellido {
-  display: flex;
-  flex-direction: column;
-}
-
-.espacio-mail {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.espacio-mensaje {
+.espacio-mail, .espacio-mensaje {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -402,14 +394,14 @@ a {
 
 .input-nombre {
   padding: 6%;
-  background-color: rgb(244, 248, 244);
+  background-color: rgb(250, 254, 250);
   font-size: 1.5;
   border: none;
   border-radius: 2em;
 }
 
 .input-escribime {
-  background-color: rgb(244, 248, 244);
+  background-color: rgb(250, 254, 250);
   font-size: 1.5;
   padding: 3%;
   border: none;
@@ -418,7 +410,7 @@ a {
 
 .boton-enviar {
   color: white;
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(80, 180, 155);
   padding: 2% 7%;
   margin-top: 15%;
   font-size: 1.05em;
@@ -427,19 +419,19 @@ a {
 }
 
 .input-escribime:focus, .input-nombre:focus {
-  box-shadow: -1px -1px 10px 4px rgb(98, 198, 125);
+  box-shadow: -1px -1px 10px 4px rgb(80, 180, 155);
   outline: none;
 }
 
 .boton-enviar:hover {
-  background-color: rgb(86, 170, 107);
+  background-color: rgb(122, 207, 186);
 }
 /* final escribime */
 
 /* inicio footer */
 
 .mi-footer {
-  background-color: rgb(98, 198, 125);
+  background-color: rgb(86, 200, 152);
   padding: 3% 0%;
   color: white;
   text-align: center;
@@ -478,10 +470,10 @@ a {
 }
 
 .icono {
-  padding: 0.8em;
+  padding: 0.7em;
   border-radius: 50%;
   background-color: white;
-  counter-reset: rgb(98, 198, 125);
+  counter-reset: rgb(86, 200, 152);
 }
 
 .icono:active {
@@ -492,7 +484,7 @@ a {
   box-shadow: -1px -1px 10px 4px white;
 }
 .icono:hover {
-  border: solid 2px white;
+  border: solid 1px white;
 }
 
 /* final footer */
