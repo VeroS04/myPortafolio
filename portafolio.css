@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .header {
@@ -78,6 +78,7 @@ a {
   padding: 10% 10%;
   width: 100%;
   display: flex;
+
 }
 
 .text-saludo {
@@ -90,13 +91,15 @@ a {
   font-size: 2em;
   margin-bottom: 0.4em;
   margin-top: 20%;
+  text-decoration: blink;
 }
 
 .mi-nombre {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
   font-size: 3.6em;
   color: rgb(86, 200, 152);
   margin-bottom: 0.4em;
+
 }
 
 .mi-descripcion {
@@ -113,6 +116,14 @@ a {
 .img-saludo {
   padding: 1.5%;
   width: 50%;
+}
+
+.otros:hover {
+  color: rgb(86, 200, 152);;
+}
+
+.mi-nombre:hover {
+  text-shadow: 5px 2px 5px rgb(106, 214, 169);
 }
 
 .boton-a-proyectos:hover {
@@ -156,6 +167,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+ 
 }
 
 .cuadro-item {
@@ -165,6 +177,7 @@ a {
   margin-top: 2.5%;
   border: solid 1px rgb(214, 213, 213);
   border-radius: 4%;
+  box-shadow: 6px 6px 6px 1px rgb(109, 147, 137);
 }
 
 .img-item {
@@ -176,6 +189,7 @@ a {
 .cuadro-item:hover {
   color: rgb(86, 200, 152);
   border: solid 1px rgb(86, 200, 152);
+  box-shadow: 6px 6px 6px 1px rgb(145, 208, 191);
 }
 
 /* final conocimientos */
@@ -255,6 +269,7 @@ a {
   width: 31%;
   border: solid 1px rgb(217, 215, 215);
   border-radius: 2%;
+  box-shadow: 6px 6px 6px 1px rgb(109, 147, 137);
 }
 
 .img-proyectos {
@@ -269,6 +284,7 @@ a {
 .boton-proyectos:hover {
   color: rgb(86, 200, 152);
   border: solid 1px rgb(86, 200, 152);
+  box-shadow: 6px 6px 6px 1px rgb(145, 208, 191);
 }
 /* fin proyectos */
 
@@ -336,23 +352,30 @@ a {
   padding: 2%;
   font-size: 1.1em;
   color: rgb(86, 200, 152);
+  
+  transition-duration: 1s;
 }
 
 .fa-envelope {
   padding: 2%;
   font-size: 1.1em;
   color: rgb(86, 200, 152);
+  
+  transition-duration: 1s;
 }
 
 .fa-brands:hover {
   background-color: rgb(86, 200, 152);
   color: white;
   border-radius: 50%;
+  transform: rotatey(380deg);
 }
+
 .fa-envelope:hover {
   background-color: rgb(86, 200, 152);
   color: white;
   border-radius: 50%;
+  transform: rotatey(380deg);
 }
 
 /* final contactame */
@@ -382,8 +405,10 @@ a {
 }
 
 .espacio-nombre, .espacio-apellido  {
+  width: 47%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .espacio-mail, .espacio-mensaje {
@@ -398,19 +423,22 @@ a {
 }
 
 .input-nombre {
-  padding: 6%;
+  padding: 5%;
   background-color: rgb(250, 254, 250);
   font-size: 1.5;
   border: none;
   border-radius: 2em;
+  box-shadow: 2px 2px 8px 1px rgb(123, 172, 159);
 }
 
 .input-escribime {
   background-color: rgb(250, 254, 250);
   font-size: 1.5;
   padding: 3%;
+  margin-left: 0.7%;
   border: none;
   border-radius: 2em;
+  box-shadow: 2px 2px 8px 1px rgb(123, 172, 159);
 }
 
 .boton-enviar {
@@ -424,7 +452,7 @@ a {
 }
 
 .input-escribime:focus, .input-nombre:focus {
-  box-shadow: -1px -1px 10px 4px rgb(80, 180, 155);
+  box-shadow: -1px 1px 10px 4px rgb(80, 180, 155);
   outline: none;
 }
 
@@ -486,8 +514,9 @@ a {
 }
 
 .bottons-nav-footer:active {
-  box-shadow: -1px -1px 10px 4px white;
+  box-shadow: -1px -1px 10px 4px rgb(73, 142, 113);
 }
+
 .icono:hover {
   border: solid 1px white;
 }
