@@ -2,14 +2,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Sansita', sans-serif;
 }
 
 .header {
   width: 100%;
   padding: 2.6em;
   background-color: white;
-  box-shadow: 0px 8px 30px -15px rgb(171, 170, 170);
+  box-shadow: 0px 8px 30px 10px rgb(135, 205, 178);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -28,27 +28,29 @@
 
 .otros {
   color: black;
-  padding: 0.2em 0.5em;
+  padding: 0.5em 0.8em;
 }
 
 .boton-color {
   color: white;
   padding: 0.5em 2em;
   border-radius: 2em;
-  background-color: rgb(86, 200, 152);
+  background-color: rgb(85, 186, 144);
 }
 
 .otros:active {
-  border: solid 1px rgb(118, 222, 196);
-  box-shadow: -1px -1px 10px 4px rgb(149, 228, 208);
+  border: solid 2px rgb(118, 222, 196);
+  border-radius: 10em;
+  box-shadow: -1px -1px 18px 3px rgb(52, 115, 99);
 }
 
 .boton-color:hover {
-  background-color: rgb(122, 207, 186);
+  background-color: rgb(52, 115, 99);
 }
 
 .boton-color:active {
-  box-shadow: -1px -1px 10px 4px rgb(149, 228, 208);
+  box-shadow: -1px -1px 18px 3px rgb(52, 115, 99);
+  border: solid 2px white;
 }
 
 /* fin header */
@@ -63,11 +65,12 @@ a {
   height: 100%;
   padding: 30px 0 0 20px;
   background-color: #fff;
-  box-shadow: -10px 0 20px rgb(191, 190, 190);
+  box-shadow: 1px 1px 15px 1px rgb(191, 190, 190);
   transform: translateX(100%);
 }
 
 .saludo {
+  background-color: rgb(83, 88, 83);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -82,33 +85,33 @@ a {
 }
 
 .text-saludo {
-  padding: 1.5%;
+  padding-top: 5%;
   width: 50%;
   font-family: sans-serif;
 }
 
 .mi-hola {
+  color: white;
   font-size: 2em;
-  margin-bottom: 0.4em;
-  margin-top: 20%;
-  text-decoration: blink;
+  margin: 2% 0%;
 }
 
 .mi-nombre {
- 
-  font-size: 3.6em;
+  font-size: 4em;
   color: rgb(86, 200, 152);
-  margin-bottom: 0.4em;
-
+  font-family: 'Croissant One', cursive;
 }
 
 .mi-descripcion {
-  margin-bottom: 2em;
+  color: white;
+ padding: 5%;
+ margin-bottom: 3%;
+ font-size: 1.4em;
 }
 
 .boton-a-proyectos {
-  padding: 1em 1.3em;
-  background-color: rgb(86, 200, 152);
+  padding: 1em 2em;
+  background-color: rgb(77, 179, 136);
   color: white;
   border-radius: 5em;
 }
@@ -119,15 +122,14 @@ a {
 }
 
 .otros:hover {
-  color: rgb(86, 200, 152);;
-}
-
-.mi-nombre:hover {
-  text-shadow: 5px 2px 5px rgb(106, 214, 169);
+  color: rgb(86, 200, 152);
+  border: solid 2px rgb(52, 115, 99);
+  border-radius: 5em;
 }
 
 .boton-a-proyectos:hover {
-  background-color: rgb(122, 207, 186);
+  background-color: rgb(52, 115, 99);
+  border: solid 2px white;
 }
 
 /* inicio conocimientos */
@@ -141,6 +143,7 @@ a {
 }
 
 .container-conocimientos {
+  background-color: lightgray;
   padding: 6% 10%;
   width: 100%;
   display: flex;
@@ -187,9 +190,10 @@ a {
 }
 
 .cuadro-item:hover {
-  color: rgb(86, 200, 152);
-  border: solid 1px rgb(86, 200, 152);
-  box-shadow: 6px 6px 6px 1px rgb(145, 208, 191);
+
+  color: rgb(72, 154, 127);
+  border: solid 2px rgb(86, 200, 152);
+  box-shadow: 0px 0px 15px 18px rgb(145, 208, 191);
 }
 
 /* final conocimientos */
@@ -198,7 +202,7 @@ a {
 
 .franja {
   color: white;
-  background-color: rgb(86, 200, 152);
+  background-color: rgb(77, 179, 136);
   padding: 6% 10%;
   width: 100%;
   display: flex;
@@ -224,6 +228,7 @@ a {
 /* inicio proyectos */
 
 .mis-proyectos {
+  background-color: rgb(158, 179, 171);
   padding: 5% 10% 3% 10%;
   width: 100%;
   display: flex;
@@ -260,6 +265,7 @@ a {
 }
 
 .boton-proyectos {
+  background-color: white;
   padding: 2.8%;
   margin-top: 3%;
   display: flex;
@@ -267,9 +273,9 @@ a {
   justify-content: center;
   align-items: center;
   width: 31%;
-  border: solid 1px rgb(217, 215, 215);
+  border: solid 2px rgb(217, 215, 215);
   border-radius: 2%;
-  box-shadow: 6px 6px 6px 1px rgb(109, 147, 137);
+  box-shadow: 6px 6px 6px 5px rgb(109, 147, 137);
 }
 
 .img-proyectos {
@@ -282,9 +288,10 @@ a {
 }
 
 .boton-proyectos:hover {
-  color: rgb(86, 200, 152);
+  background-color: rgb(109, 147, 137);
+  color: white;
   border: solid 1px rgb(86, 200, 152);
-  box-shadow: 6px 6px 6px 1px rgb(145, 208, 191);
+  box-shadow: 0px 0px 15px 18px rgb(145, 208, 191);
 }
 /* fin proyectos */
 
@@ -300,10 +307,11 @@ a {
 }
 
 .container-contacto {
-  background-color: white;
+  background-color: rgb(151, 202, 189);
   width: 100%;
   padding: 6% 5%;
-  border: 1px solid rgb(235, 233, 233);
+  border: 2px solid rgb(84, 108, 97);
+  box-shadow: 0px 0px 25px 15px rgb(145, 208, 191);
   border-radius: 1em;
   display: flex;
   justify-content: flex-start;
@@ -327,6 +335,7 @@ a {
 }
 
 .texto-contacto {
+  font-size: 1.2em;
   width: 70%;
   margin-top: 6%;
   margin-bottom: 6%;
@@ -341,40 +350,44 @@ a {
 .img-item-contacto {
   color: black;
   width: 100%;
-  margin-top: 4%;
-  padding: 1%;
+  margin-top: 2%;
+  padding: 0.1%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
 .fa-brands {
+  margin: 1.5%;
   padding: 2%;
-  font-size: 1.1em;
-  color: rgb(86, 200, 152);
-  
+  font-size: 1.5em;
+  color: rgb(88, 151, 125);
+  border: solid 2px rgb(151, 202, 189);
   transition-duration: 1s;
 }
 
 .fa-envelope {
+  margin: 1.5%;
   padding: 2%;
-  font-size: 1.1em;
-  color: rgb(86, 200, 152);
-  
+  font-size: 1.5em;
+  color: rgb(88, 151, 125);
+  border: solid 2px rgb(151, 202, 189);
   transition-duration: 1s;
 }
 
 .fa-brands:hover {
-  background-color: rgb(86, 200, 152);
+  background-color: rgb(88, 151, 125);
   color: white;
   border-radius: 50%;
+  border: solid 2px white ;
   transform: rotatey(380deg);
 }
 
 .fa-envelope:hover {
-  background-color: rgb(86, 200, 152);
+  background-color: rgb(88, 151, 125);
   color: white;
   border-radius: 50%;
+  border: solid 2px white ;
   transform: rotatey(380deg);
 }
 
@@ -411,7 +424,13 @@ a {
   justify-content: space-between;
 }
 
-.espacio-mail, .espacio-mensaje {
+.espacio-mail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.espacio-mensaje {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -423,8 +442,8 @@ a {
 }
 
 .input-nombre {
+  background-color: rgb(159, 195, 178);
   padding: 5%;
-  background-color: rgb(250, 254, 250);
   font-size: 1.5;
   border: none;
   border-radius: 2em;
@@ -432,7 +451,7 @@ a {
 }
 
 .input-escribime {
-  background-color: rgb(250, 254, 250);
+  background-color: rgb(159, 195, 178);
   font-size: 1.5;
   padding: 3%;
   margin-left: 0.7%;
@@ -443,28 +462,30 @@ a {
 
 .boton-enviar {
   color: white;
-  background-color: rgb(80, 180, 155);
+  background-color: rgb(88, 151, 125);
   padding: 2% 7%;
   margin-top: 15%;
   font-size: 1.05em;
   border-radius: 1.5em;
-  border: none;
+  border: solid 2px rgb(151, 202, 189);
 }
 
 .input-escribime:focus, .input-nombre:focus {
-  box-shadow: -1px 1px 10px 4px rgb(80, 180, 155);
+  box-shadow: -1px 1px 10px 8px rgb(80, 180, 155);
   outline: none;
 }
 
 .boton-enviar:hover {
-  background-color: rgb(122, 207, 186);
+  border: solid 2px white;
+  background-color: rgb(102, 169, 141);
+  box-shadow: -1px 1px 10px 8px rgb(80, 180, 155);
 }
 /* final escribime */
 
 /* inicio footer */
 
 .mi-footer {
-  background-color: rgb(86, 200, 152);
+  background-color: rgb(77, 179, 136);
   padding: 3% 0%;
   color: white;
   text-align: center;
@@ -480,12 +501,12 @@ a {
   display: flex;
   align-items: stretch;
   justify-content: center;
-
 }
 
-.bottons-nav-footer, .otros-footer{
-  padding: 0.2% 0.4% 0.2% 0.1%;
+.botones-nav-footer{
+  padding: 0.5%;
   margin-left: 1%;
+  border: solid 2px rgb(77, 179, 136);
   text-align: center;
   color: white;
 }
@@ -502,23 +523,50 @@ a {
   margin-left: 1%;
 }
 
+.item-footer-mail {
+  background-color: aquamarine;
+  margin-left: 1%;
+}
+
 .icono {
   padding: 0.7em;
   border-radius: 50%;
+  border: solid 1px white;
+  color: rgb(77, 179, 136);
   background-color: white;
-  counter-reset: rgb(86, 200, 152);
+}
+
+.icono-mail {
+  padding: 0.8em;
+  border-radius: 50%;
+  border: solid 1px white;
+  color: rgb(77, 179, 136);
+  background-color: white;
 }
 
 .icono:active {
   box-shadow: -1px -1px 10px 4px white;
 }
 
-.bottons-nav-footer:active {
-  box-shadow: -1px -1px 10px 4px rgb(73, 142, 113);
+.otros-footer:active {
+  color: white;
 }
+
+.botones-nav-footer:active  {
+  box-shadow: -1px -1px 15px 10px rgb(68, 139, 109);
+  border: solid 2px white;
+  padding: 0.5%;
+  border-radius: 2em;
+}
+
+.botones-nav-footer:hover {
+  border: solid 2px rgb(68, 139, 109);
+  border-radius: 2em;
+} 
 
 .icono:hover {
   border: solid 1px white;
+  background-color: rgb(77, 179, 136);
 }
 
 /* final footer */
