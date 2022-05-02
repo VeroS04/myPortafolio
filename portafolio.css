@@ -741,11 +741,17 @@ a {
     font-size: 1em;
   }
 
+  .botones-nav-footer
+
   .mi-escribime, .form-escribime, .espacio-datos, .espacio-mail, .espacio-mensaje {
     width: 100%;
   }
 
   .icono {
+    padding: 0.8em;
+  }
+
+  .icono-mail {
     padding: 0.8em;
   }
 }
