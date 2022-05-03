@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .header {
@@ -29,6 +29,7 @@
 .otros {
   color: black;
   padding: 0.5em 0.8em;
+  font-weight: bold;
 }
 
 .boton-color {
@@ -98,7 +99,8 @@ a {
 
 .mi-nombre {
   font-size: 4em;
-  color: rgb(86, 200, 152);
+  color: rgb(45, 138, 62);
+  -webkit-text-stroke: 0.2px rgb(90, 184, 134);
   font-family: 'Croissant One', cursive;
 }
 
@@ -158,6 +160,7 @@ a {
 }
 
 .descripcion-conocimientos {
+  font-size: 1.2em;
   width: 30%;
   margin-top: 2%;
 }
@@ -192,8 +195,8 @@ a {
 .cuadro-item:hover {
 
   color: rgb(72, 154, 127);
-  border: solid 2px rgb(86, 200, 152);
-  box-shadow: 0px 0px 15px 18px rgb(145, 208, 191);
+  border: solid 2px rgb(53, 122, 95);
+  box-shadow: 0px 0px 15px 5px rgb(52, 115, 99);
 }
 
 /* final conocimientos */
@@ -203,8 +206,8 @@ a {
 .franja {
   color: white;
   background-color: rgb(77, 179, 136);
-  padding: 6% 10%;
   width: 100%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,21 +217,28 @@ a {
 
 .fa-quote-right {
   font-size: 8em;
-  margin-top: -2%;
+  padding: 1%;
   margin-bottom: 2%;
+}
+
+.frase-franja {
+  padding: 1%;
+  margin: 1%;
+  width: 100%;
+  font-size: 1.8em;
 }
 
 .someone {
   font-size: 2em;
-  margin-top: 6%;
-  margin-bottom: -5%;
+  padding: 2%;
+  text-decoration: underline;
 }
 /* final franja */
 
 /* inicio proyectos */
 
 .mis-proyectos {
-  background-color: rgb(158, 179, 171);
+  background-color: rgb(207, 215, 212);
   padding: 5% 10% 3% 10%;
   width: 100%;
   display: flex;
@@ -247,11 +257,12 @@ a {
 }
 
 .titulo-proyectos {
-  margin-top: 2%;
+  margin-top: 1%;
   font-size: 2.3em;
 }
 
 .texto-proyectos {
+  font-size: 1.2em;
   width: 20%;
   margin-top: 2%;
 }
@@ -288,10 +299,10 @@ a {
 }
 
 .boton-proyectos:hover {
-  background-color: rgb(109, 147, 137);
+  background-color: rgb(124, 171, 158);
   color: white;
-  border: solid 1px rgb(86, 200, 152);
-  box-shadow: 0px 0px 15px 18px rgb(145, 208, 191);
+  border: solid 1px rgb(57, 131, 100);
+  box-shadow: 0px 0px 15px 8px rgb(52, 115, 99);
 }
 /* fin proyectos */
 
@@ -349,6 +360,7 @@ a {
 
 .img-item-contacto {
   color: black;
+  font-size: 1.2em;
   width: 100%;
   margin-top: 2%;
   padding: 0.1%;
@@ -373,6 +385,10 @@ a {
   color: rgb(88, 151, 125);
   border: solid 2px rgb(151, 202, 189);
   transition-duration: 1s;
+}
+
+.img-item-contacto:hover {
+  color: white;
 }
 
 .fa-brands:hover {
@@ -438,6 +454,7 @@ a {
 
 .espacio-escribime {
   color: black;
+  font-weight: bold;
   padding: 3%;
 }
 
@@ -503,12 +520,17 @@ a {
   justify-content: center;
 }
 
+.otros-footer {
+  font-weight: bold;
+  color: white;
+}
+
 .botones-nav-footer{
+  
   padding: 0.5%;
   margin-left: 1%;
   border: solid 2px rgb(77, 179, 136);
   text-align: center;
-  color: white;
 }
 
 .links-footer {
@@ -544,6 +566,10 @@ a {
   background-color: white;
 }
 
+.texto-final {
+  font-size: 1.1em;
+}
+
 .icono:active {
   box-shadow: -1px -1px 10px 4px white;
 }
@@ -567,6 +593,13 @@ a {
 .icono:hover {
   border: solid 1px white;
   background-color: rgb(77, 179, 136);
+  transform: rotateY(380deg);
+}
+
+.icono-mail:hover {
+  border: solid 1px white;
+  background-color: rgb(77, 179, 136);
+  transform: rotateY(380deg);
 }
 
 /* final footer */
@@ -741,7 +774,6 @@ a {
     font-size: 1em;
   }
 
-  .botones-nav-footer
 
   .mi-escribime, .form-escribime, .espacio-datos, .espacio-mail, .espacio-mensaje {
     width: 100%;
@@ -754,6 +786,7 @@ a {
   .icono-mail {
     padding: 0.8em;
   }
+
 }
 
 @media screen and (max-width: 450px) and (min-width: 110px) {
@@ -814,6 +847,10 @@ a {
   }
 
   .otros-footer {
-    font-size: 0.95em;
+    font-size: 0.9em;
+  }
+
+  .texto-final {
+    font-size: 1.09em;
   }
 }
