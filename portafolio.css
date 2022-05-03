@@ -719,10 +719,11 @@ a {
   .container-cuadros {
     width: 100%;
   }
+
   .cuadro-item {
+    text-align: center;
     font-size: 80%;
     width: 40%;
-    margin-left: 0.01px;
     padding: 5% 8%;
     margin-left: 1%;
   }
@@ -802,9 +803,9 @@ a {
   }
 
   .cuadro-item {
+    text-align: center;
     font-size: 60%;
     width: 45%;
-    margin-left: 0.01px;
     padding: 2% 5%;
     margin-left: 1%;
   }
