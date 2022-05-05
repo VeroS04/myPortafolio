@@ -912,6 +912,12 @@ a {
     width: 98%;
   }
 
+  .botones-nav-footer {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 0.5%;
+  }
+
   .otros-footer {
     font-size: 0.9em;
   }
