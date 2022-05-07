@@ -12,24 +12,32 @@
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  background-color: white;
-  box-shadow: 0px 8px 30px 10px #6b2737;
+  background-color: #c5fcee;
+  box-shadow: 0px 8px 30px 3px #d38dff;
 }
 
 .nav-bar {
   width: 50%;
+  padding: 1%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-right: 4em;
   position: fixed;
-  background-color: white;
+  background-color: #c5fcee;
+}
+
+.lista-botones {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .otros {
-  color: black;
+  color: #d38dff;
   padding: 0.5em 0.8em;
-  border: solid 2px #fff;
+  border: solid 2px #c5fcee;
   font-weight: bold;
 }
 
@@ -43,7 +51,7 @@
 
 .otros:hover {
   color: #008f7a;
-  border: solid 2px #6b2737;
+  border: solid 2px #008f7a;
   border-radius: 2em;
 }
 
@@ -73,7 +81,7 @@ a {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  box-shadow: 1px 1px 15px 1px #070d0e;
+  box-shadow: 1px 1px 15px 1px #d38dff;
   transform: translateX(100%);
 }
 
@@ -101,7 +109,7 @@ a {
 }
 
 .mi-hola {
-  font-size: 2em;
+  font-size: 0.5em;
   margin: 2% 0%;
 }
 
@@ -296,7 +304,6 @@ a {
 
 .img-screen {
   width: 100%;
-  margin: 15%;
 }
 
 .boton-proyectos:hover {
@@ -392,7 +399,7 @@ a {
 
 .item-mail {
   font-size: 1.3em;
-  padding: 3%;
+  padding: 3.2%;
   border: solid 2px #c5fcee;
   transition-duration: 1s;
   border-radius: 2em;
@@ -479,7 +486,7 @@ a {
   background-color: #c5fcee;
   padding: 5.2%;
   font-size: 1.5;
-  outline: none;
+  outline: transparent;
   border: none;
   border-radius: 2em;
   box-shadow: 2px 2px 8px -1px #3a2c35;
@@ -526,7 +533,7 @@ a {
 }
 
 .nav-bar-footer {
-  width: 100%;
+  width: 25%;
   padding: 0.5% 0%;
   display: flex;
   align-items: center;
@@ -626,7 +633,7 @@ a {
   }
 
   .item-mail {
-    padding: 5%;
+    padding: 3%;
   }
 }
 
@@ -764,7 +771,7 @@ a {
   }
 
   .mi-escribime {
-    width: 100%;
+    width: 90%;
   }
 
   .input-escribime {
@@ -788,7 +795,7 @@ a {
   }
 }
 
-@media screen and (max-width: 450px) and (min-width: 110px) {
+@media screen and (max-width: 450px) and (min-width: 10px) {
 
   .cuadro-item {
     display: flex;
@@ -805,25 +812,28 @@ a {
     width: 100%;
   }
 
+  .container-contacto {
+    padding: 2%;
+    width: 100%;
+  }
+
   .links {
     padding: 0%;
   }
 
   .links-item-contacto {
-    width: 40%;
-  }
-
-  .mail-link {
-    width: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
   .img-item-contacto {
-    width: 100%;
+    width: 70%;
     font-size: 0.7em;
   }
 
   .item-mail-contacto {
-    width: 100%;
+    width: 90%;
   }
 
   .item-mail {
@@ -831,7 +841,7 @@ a {
   }
 
   .nav-bar-footer {
-    width: 70%;
+    width: 100%;
     font-size: 0.8em;
   }
 

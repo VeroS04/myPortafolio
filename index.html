@@ -9,24 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="imagenes/totoro-icono2.png">
     <link rel="stylesheet" href="portafolio.css" />
     <title>Portafolio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav-bar">
-        <div class="bottons-nav">
-          <a class="otros" href="#hola">HOLA</a>
-        </div>
-        <div class="bottons-nav">
-          <a class="otros" href="#conocimientos">CONOCIMIENTOS</a>
-        </div>
-        <div class="bottons-nav">
-          <a class="otros" href="#proyectos">PROYECTOS</a>
-        </div>
-        <div class="bottons-nav">
-          <a class="boton-color" href="#contacto">CONTACTO</a>
-        </div>
+    <header title="barra de navegacion" class="header">
+      <nav aria-label="barra de navegación" title="barra de navegacion" class="nav-bar">
+        <ul class="lista-botones">
+          <li class="botones-nav">
+          <a aria-label="botón a seccion presentacion" title="boton hola" class="otros" href="#hola">HOLA</a>
+        </li>
+        <li class="botones-nav">
+          <a aria-label="botón a seccion de mis conocimientos" title="boton a conocimientos" class="otros" href="#conocimientos">CONOCIMIENTOS</a>
+        </li>
+        <li class="botones-nav">
+          <a aria-label="botón a seccion de mis proyectos" title="boton a proyectos" class="otros" href="#proyectos">PROYECTOS</a>
+        </li>
+        <li class="botones-nav">
+          <a aria-label="botón a seccion de contacto" title="boton a contacto" class="boton-color" href="#contacto">CONTACTO</a>
+        </li>
+      </ul>
       </nav>
     </header>
     <!-- fin header -->
@@ -37,64 +40,47 @@
     <section class="saludo" id="hola">
       <div class="container-saludo">
         <div class="text-saludo">
-          <p class="mi-hola"><strong>¡Hola! Soy</strong></p>
-          <h1 class="mi-nombre">Veronica Segovia</h1>
+          <h1 aria-label="verónica segovia" title="titulo nombre" class="mi-nombre">
+            <span class="mi-hola">¡Hola! Soy</span><br>
+            Verónica Segovia</h1>
           <p class="mi-descripcion">Mamá y Desarrolladora Frontend</p>
-          <a class="boton-a-proyectos" href="#proyectos"><strong> QUE HAGO</strong></a>
+          <a aria-label="lo que hago" title="boton a proyectos" class="boton-a-proyectos" href="#proyectos"><strong>LO QUE HAGO</strong></a>
         </div>
-        <img class="img-saludo" src="imagenes/saludo5.svg" />
+        <img alt="imagen de presentacion" title="saludo" class="img-saludo" src="imagenes/saludo5.svg" />
       </div>
     </section>
     <!-- final saludo -->
     
 <!-- inicio conocimientos -->
-    <section class="mis-conocimientos" id="conocimientos">
+    <section class="mis-conocimientos" id="conocimientos" title="seccion conocimientos">
       <div class="container-conocimientos">
-        <h2 class="titulo-conocimientos">Mis conocimientos</h2>
+        <h2 aria-label="mis conocimientos" title="titulo conocimientos" class="titulo-conocimientos">Mis conocimientos</h2>
         <p class="descripcion-conocimientos">
-        Sección donde se encuentan los conocimientos adquiridos en mi formacion en ADA ITW<br> Desarrollo Front End
+        Sección donde se encuentran los conocimientos adquiridos en mi formacion en ADA ITW<br> Desarrollo Front End
         </p>
         <div class="container-cuadros">
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-            />
+          <div aria-label="lenguaje html 5" title="html 5" class="cuadro-item">
+            <img alt="logo de html" class= "img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>
             HTML 5
           </div>
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-            />
+          <div aria-label="lenguaje css3" title="css 3" class="cuadro-item">
+            <img alt="logo de css" class="img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
             CSS 3
           </div>
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-            />
+          <div aria-label="lenguaje sass" title="sass" class="cuadro-item">
+            <img alt="logo de sass" class="img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/>
             Sass
           </div>
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-            />
+          <div aria-label="lenguaje javascript" class="cuadro-item">
+            <img alt="logo de javascript" title="javascript" class="img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/>
             JavaScript
           </div>
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            />
+          <div aria-label="lenguaje react" class="cuadro-item">
+            <img alt="logo de react" title="react" class="img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
             React
           </div>
-          <div class="cuadro-item">
-            <img
-              class="img-item"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            />
+          <div aria-label="lenguaje git" class="cuadro-item">
+            <img alt="logo de git" title="git" class="img-item" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
             GIT
           </div>
         </div>
@@ -103,7 +89,7 @@
     <!-- fin conocimientos -->
 
     <!-- inicio franja -->
-    <section class="franja">
+    <section title="leyenda" class="franja">
       <div class="quote">
         <i class="fa-solid fa-quote-right"></i>
         <div class="texto-franja">
@@ -118,41 +104,55 @@
 
     <!-- icicio proyectos -->
 
-    <section class="mis-proyectos" id="proyectos">
+    <section title="seccion proyectos" class="mis-proyectos" id="proyectos">
       <div class="container-proyectos">
-        <h2 class="titulo-proyectos">Mis proyectos</h2>
+        <h2 title="titulo mis proyectos" class="titulo-proyectos">Mis proyectos</h2>
         <p class="texto-proyectos">
-         Sección donde se encontraran los proyectos realizados en mi formación en ADA
+         Sección donde se encontrarán los proyectos realizados en mi formación en ADA
         </p>
         <div class="cuadros-proyectos">
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos img-screen" src="imagenes/screen-saludo6.png" />
-            <strong>Portafolio</strong>
+          <div title="portafolio" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de portafolio" class="img-proyectos img-screen" src="imagenes/screen-saludo6.png" />
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/memes5.svg" />
-           <strong>Generador de memes</strong> 
+          <p>Portafolio</p>
+        </div>
+        <div title="generador de memes" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de generador de memes" class="img-proyectos" src="imagenes/memes5.svg" />
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/match5.svg" />
-            <strong>Match 3</strong>
+          <p>Generador de memes</p> 
+        </div>
+        <div title="match 3" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de match 3" class="img-proyectos" src="imagenes/match5.svg"/>
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/gastos5.svg"/>
-            <strong>Controlador de gastos</strong>
+          <p>Match 3</p>
+        </div>
+        <div title="controlador de gastos" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de controlador de gastos" class="img-proyectos" src="imagenes/gastos5.svg"/>
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/agenda5.svg"/>
-            <strong>Administrador de reuniones</strong>
+          <p>Controlador de gastos</p>
+        </div>
+        <div title="administrador de reuniones" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de administrador de reuniones" class="img-proyectos" src="imagenes/agenda5.svg"/>
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/app5.svg" />
-            <strong>Todo app</strong>
+          <p>Administrador de reuniones</p>
+        </div>
+        <div title="todo app" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de todo app" class="img-proyectos" src="imagenes/app5.svg" />
           </a>
-          <a href="" class="boton-proyectos">
-            <img class="img-proyectos" src="imagenes/peliculas5.svg" />
-            <strong>Buscador de películas</strong>
+          <p>Todo app</p>
+        </div>
+        <div title="buscador de peliculas" aria-label="botón a" class="boton-proyectos">
+          <a class="seccion-proyectos" href="">
+            <img alt="imagen de buscador de peliculas" class="img-proyectos" src="imagenes/peliculas5.svg" />
           </a>
+          <p>Buscador de películas</p>
+        </div>
         </div>
       </div>
     </section>
@@ -161,38 +161,37 @@
 
     <!-- inicio contacto -->
 
-    <section class="mi-contacto" id="contacto">
+    <section aria-label="sección de contacto" title="seccion contacto" class="mi-contacto" id="contacto">
       <div class="columna-contacto">
         <div class="container-contacto">
           <section class="contacto">
-            <h1 class="titulo-contacto">Contactame</h1>
+            <h1 aria-label="seccion de links de contacto" title="titulo contacto" class="titulo-contacto">Contactame</h1>
             <p class="texto-contacto">
-            A continuacion encontraran los medios donde podran buscar más informacion sobre mi, mis conocimientos y experiencia.
+            A continuacion encontrarán los medios donde podran buscar más informacion sobre mi, mis conocimientos y experiencia.
             </p>
-            <div class="links">
-              <div class="links-item-contacto">
+            <div class="links" aria-label="links de contacto" title="links de contacto">
+              <div aria-label="link a twiter" title="twiter" class="links-item-contacto">
               <a href="https://twitter.com/veronica04128" class="img-item-contacto">
                 <i class="item-contacto fa-brands fa-twitter"></i>
                 @veronica04128
               </a>
             </div>
 
-              <div class="links-item-contacto">
+              <div aria-label="link  a github" title="github" class="links-item-contacto">
               <a href="https://github.com/VeroS04" class="img-item-contacto">
                 <i class="item-contacto fa-brands fa-github-alt"></i>
                 VeronicaSegovia
               </a>
               </div>
 
-              <div class="links-item-contacto">
-              <a
-                href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-contacto">
+              <div aria-label="link a linkedin" title="linkedin" class="links-item-contacto">
+              <a href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-contacto">
                 <i class="item-contacto fa-brands fa-linkedin"></i>
                 Veronica Segovia
               </a>
             </div>
 
-            <div class="links-item-contacto mail-link">
+            <div aria-label="link a e-mail" title="e-mail" class="links-item-contacto mail-link">
               <a href="https://mail.google.com/" class="img-item-contacto item-mail-contacto">
                 <i class="item-mail fa-solid fa-envelope"></i>
                 veronica.c.segovia@gmail.com
@@ -203,28 +202,28 @@
 
           <!-- inicio escribime -->
 
-          <section class="mi-escribime">
-            <h1 class="titulo-escribime">Escribime</h1>
-            <form class="form-escribime">
+          <section title="seccion escribime" class="mi-escribime">
+            <h1 aria-label="seccion de formulario" title="titulo escribime" class="titulo-escribime">Escribime</h1>
+            <form class="form-escribime" title="formulario">
               <div class="espacio-datos">
                 <div class="espacio-nombre">
                   <label class="espacio-escribime" for="nombre">Nombre*</label>
-                  <input class="input-nombre" size="30%" type="text" id="nombre" placeholder="p. ej : Veronica"/>
+                  <input aria-label="escribir nombre por ejemplo" title="escribir nombre" class="input-nombre" size="30%" type="text" id="nombre" placeholder="ej : Veronica"/>
                 </div>
                 <div class="espacio-apellido">
                   <label class="espacio-escribime" for="apellidos">Apellidos*</label>
-                  <input class="input-nombre" size="30%" type="text" id="apellidos" placeholder="p. ej : Segovia"/>
+                  <input aria-label="escribir apellido por ejemplo" title="escribir apellido" class="input-nombre" size="30%" type="text" id="apellidos" placeholder="ej : Segovia"/>
                 </div>
               </div>
               <div class="espacio-mail">
                 <label class="espacio-escribime" for="mail">Email*</label>
-                <input class="input-nombre input-escribime" type="text" id="mail" placeholder="p. ej : veronica.c.segovia@gmail.com"/>
+                <input aria-label="escribir e-mail por ejemplo" title="escribir e-amil" class="input-nombre input-escribime" type="text" id="mail" placeholder="ej : veronica.c.segovia@gmail.com"/>
               </div>
               <div class="espacio-mensaje">
                 <label class="espacio-escribime" for="mensaje">Mensaje* </label>
-                  <textarea class="input-mensaje input-escribime" name="mensaje" cols="50" rows="10" placeholder="Escriba su mensaje aquí"></textarea>
+                  <textarea aria-label="espaci para escribir mnensaje" title="espacio para escribir mensaje" class="input-mensaje input-escribime"  name="mensaje" cols="50" rows="10" placeholder="Escriba su mensaje aquí"></textarea>
               </div>
-              <button type="submit" class="boton-enviar">Enviar</button>
+              <button aria-label="enviar" title="enviar" type="submit" class="boton-enviar">Enviar</button>
             </form>
           </section>
         </div>
@@ -235,41 +234,42 @@
 
     <!-- inicio footer -->
 
-    <footer class="mi-footer">
+    <footer class="mi-footer" title="pie de pagina">
       <nav class="nav-bar-footer">
-        <div class="botones-nav-footer">
+        <ul class="lista-botones">
+        <li aria-label="botón a sección presentación" title="hola" class="botones-nav-footer">
           <a class="otros-footer" href="#hola">HOLA</a>
-        </div>
-        <div class="botones-nav-footer">
+        </li>
+        <li aria-label="botón a sección de mis conocimientos" title="conocimientos" class="botones-nav-footer">
           <a class="otros-footer" href="#conocimientos">CONOCIMIENTOS</a>
-        </div>
-        <div class="botones-nav-footer">
+        </li>
+        <li aria-label="botón a sección mis proyectos" title="proyectos" class="botones-nav-footer">
           <a class="otros-footer" href="#proyectos">PROYECTOS</a>
-        </div>
-        <div class="botones-nav-footer">
+        </li>
+        <li aria-label="botón a sección de contacto" title="contacto" class="botones-nav-footer">
           <a class="otros-footer" href="#contacto">CONTACTO</a>
-        </div>
+        </li>
+      </ul>
       </nav>
 
       <div class="links-footer">
-        <a href="https://twitter.com/veronica04128" class="img-item-footer">
+        <a aria-label="link  a twiter" title="twiter" href="https://twitter.com/veronica04128" class="img-item-footer">
           <i class="icono fa-brands fa-twitter"></i>
         </a>
 
-        <a href="https://github.com/VeroS04" class="img-item-footer">
+        <a aria-label="link  a github" title="github" href="https://github.com/VeroS04" class="img-item-footer">
           <i class="icono fa-brands fa-github-alt"></i>
         </a>
 
-        <a
-          href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-footer">
+        <a aria-label="link  a linkedin" title="linkedin" href="https://www.linkedin.com/in/veronica-segovia-584834181/" class="img-item-footer">
           <i class="icono fa-brands fa-linkedin-in"></i>
         </a>
 
-        <a href="https://mail.google.com/" class="img-item-footer">
+        <a aria-label="link  a e-mail" title="e-mail" href="https://mail.google.com/" class="img-item-footer">
           <i class="icono-mail fa-solid fa-envelope"></i>
         </a>
       </div>
-      <p class="texto-final">Hecho con mucho &#x2764&#xfe0f por Vero</p>
+      <p class="texto-final" title="titulo final">Hecho con mucho &#x2764&#xfe0f por Vero</p>
     </footer>
     
     <!-- final -->
