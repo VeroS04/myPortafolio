@@ -703,9 +703,12 @@ ul {
   }
 
   .cuadro-item-conocimiento {
-    text-align: center;
     width: 40%;
-    padding: 5% 8%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .texto-proyectos {
@@ -781,10 +784,12 @@ ul {
   }
 
   .cuadro-item-conocimiento {
-    text-align: center;
     width: 45%;
     padding: 5%;
-    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .cuadros-proyectos {
