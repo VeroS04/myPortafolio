@@ -159,7 +159,7 @@ ul {
   align-items: center;
 }
 
-.container-conocimientos {
+.contenedor-conocimientos {
   padding: 6% 10%;
   width: 100%;
   display: flex;
@@ -191,17 +191,22 @@ ul {
 
 .cuadro-item-conocimiento {
   background-color: white;
+  text-align: center;
   width: 30%;
-  padding: 6% 8% 4% 8%;
+  padding: 2%;
   margin-top: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 4%;
   border: solid 1px #3a2c35;
   box-shadow: 6px 6px 6px 0px #008f7a;
 }
 
 .img-item-conocimiento {
-  margin-bottom: 5%;
-  padding: 15%;
+  width: 50%;
+  margin: 8%;
   color: white;
 }
 
@@ -256,7 +261,7 @@ ul {
   text-align: center;
 }
 
-.container-proyectos {
+.contenedor-proyectos {
   width: 100%;
   padding: 5% 0%;
   display: flex;
@@ -602,6 +607,7 @@ ul {
 /* medida laptop-tablet */
 
 @media screen and (max-width: 1050px) and (min-width: 110px) {
+  
   .header, .nav-bar, .barra-scrol {
     display: none;
   }
@@ -630,22 +636,13 @@ ul {
     border-radius: 5em;
   }
 
-  .contenedor-conocimientos {
+  .contenedor-conocimientos, .contenedor-cuadros-conocimientos{
     width: 100%;
     text-align: center;
   }
 
   .descripcion-conocimientos {
     width: 100%;
-  }
-
-  .contenedor-cuadros-conocimientos {
-    width: 100%;
-    margin-top: 2.5%;
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
   }
 
   .cuadros-proyectos {
@@ -705,10 +702,7 @@ ul {
   .cuadro-item-conocimiento {
     width: 40%;
     padding: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 
   .texto-proyectos {
@@ -786,19 +780,20 @@ ul {
   .cuadro-item-conocimiento {
     width: 45%;
     padding: 5%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .cuadros-proyectos {
+  .titulo-proyectos {
     width: 100%;
   }
   
   .boton-proyectos {
     width: 100%;
-    height: 25em;
+    height: 20em;
     padding: 12%;
   }
 
@@ -858,4 +853,24 @@ ul {
   .texto-final {
     font-size: 1.09em;
   }
+}
+@media screen and (max-width: 340px) and (min-width: 100px){
+
+.descripcion-conocimientos {
+  width: 100%;
+}
+
+.contenedor-cuadros-conocimientos {
+  width: 100%;
+  text-align: center;
+}
+
+.cuadro-item-conocimiento {
+  width: 70%;
+}
+
+.lista-footer {
+  width: 100%;
+  font-size: 0.9em;
+}
 }
