@@ -326,10 +326,10 @@ ul {
   align-items: center;
 }
 
-.contenedor-contacto {
+.contenedor-contacto-escribime {
   background-color: #c5fcee;
-  width: 80%;
-  padding: 6% 5%;
+  width: 85%;
+  padding: 5%;
   border: 3px solid #188c7e;
   border-radius: 1em;
   display: flex;
@@ -337,6 +337,7 @@ ul {
 
 .columna-contacto {
   width: 50%;
+  padding: 1%;
 }
 
 .titulo-contacto,
@@ -346,50 +347,30 @@ ul {
 
 .texto-contacto {
   font-size: 1.2em;
-  width: 70%;
-  margin-top: 6%;
-  margin-bottom: 6%;
+  margin-top: 5%;
 }
 
 .links-contacto {
-  text-decoration: none;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5%;
-  list-style: none;
+  margin-top: 5%;
 }
 
 .links-item-contacto {
   padding: 1%;
   width: 100%;
-  display: flex;
 }
 
 .img-item-contacto {
-  width: 55%;
   color: #008f7a;
-  font-size: 0.95em;
-  padding: 0.2%;
-  border-radius: 2em;
-}
-
-.item-mail-contacto {
-  width: 75%;
-  padding: 0.2%;
+  font-size: 1.1em;
+  padding: 2.5%;
   border-radius: 2em;
 }
 
 .item-contacto {
-  font-size: 1.5em;
-  padding: 3%;
-  border: solid 2px #c5fcee;
-  transition-duration: 1s;
-  border-radius: 2em;
-}
-
-.item-mail {
-  font-size: 1.3em;
-  padding: 2.4%;
+  padding: 2%;
   border: solid 2px #c5fcee;
   transition-duration: 1s;
   border-radius: 2em;
@@ -423,6 +404,7 @@ ul {
 
 .columna-escribime {
   width: 50%;
+  padding: 1%;
   display: flex;
   flex-direction: column;
 }
@@ -606,7 +588,7 @@ ul {
 
 /* medida laptop-tablet */
 
-@media screen and (max-width: 1050px) and (min-width: 110px) {
+@media screen and (max-width: 1140px) and (min-width: 110px) {
   
   .header, .nav-bar, .barra-scrol {
     display: none;
@@ -653,14 +635,17 @@ ul {
     width: 100%;
   }
 
-  .mi-contacto, .contenedor-contacto {
+  .mi-contacto, .contenedor-contacto-escribime {
     width: 100%;
     padding: 2%;
   }
 
-  .columna-contacto {
+  .columna-contacto, .columna-escribime {
     width: 100%;
-    padding: 1%;
+  }
+
+  .img-item-contacto {
+    font-size: 1em;
   }
 
   .lista-footer {
@@ -679,7 +664,7 @@ ul {
 
 /* medida tablet-movil */
 
-@media screen and (max-width: 850px) and (min-width: 469px) {
+@media screen and (max-width: 850px) and (min-width: 480px) {
 
   .text-saludo {
     padding: 1.5%;
@@ -725,7 +710,7 @@ ul {
     width: 100%;
   }
 
-  .contenedor-contacto {
+  .contenedor-contacto-escribime {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -739,22 +724,22 @@ ul {
     width: 100%;
     padding: 2%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
   }
 
   .links-item-contacto {
-    padding: 0%;
-    width: 45%;
-    margin-top: 1%;
+    padding: 1%;
+    width: 100%;
   }
-
-  .img-item-contacto,  .item-mail-contacto {
-    width: 98%;
+  
+  .img-item-contacto {
+    font-size: 1.2em;
+    padding: 2%;
   }
-
-  .item-mail {
-    padding: 3%;
+  
+  .item-contacto {
+    padding: 2%;
+    transition-duration: 1s;
   }
 
   .columna-escribime {
@@ -771,20 +756,16 @@ ul {
 
 }
 
-@media screen and (max-width: 450px) and (min-width: 100px) {
+@media screen and (max-width: 479px) and (min-width: 100px) {
 
   .mi-nombre {
     font-size: 3.5em;
   }
 
   .cuadro-item-conocimiento {
-    width: 45%;
+    width: 55%;
     padding: 5%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
   }
 
   .titulo-proyectos {
@@ -793,44 +774,38 @@ ul {
   
   .boton-proyectos {
     width: 100%;
-    height: 20em;
     padding: 12%;
   }
 
-  .img-screen {
-    height: 15em;
+  .img-proyectos {
+    width: 90%;  
   }
 
-  .contenedor-contacto {
+
+  .contenedor-contacto-escribime {
     display: flex;
     flex-direction: column;
   }
 
-  .columna-contacto, .texto-contacto  {
+  .columna-contacto, .columna-escribime {
     width: 100%;
   }
 
   .links-item-contacto {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img-item-contacto {
-    width: 70%;
-    font-size: 0.7em;
-  }
-
-  .item-mail-contacto {
-    width: 90%;
-  }
-
-  .item-mail {
-    padding: 2%;
-  }
-
-  .columna-escribime {
+    padding: 1%;
     width: 100%;
+  }
+  
+  .img-item-contacto {
+    font-size: 1em;
+    padding: 2.5%;
+  }
+  
+  .item-contacto {
+    padding: 2%;
+    border: solid 2px #c5fcee;
+    transition-duration: 1s;
+    border-radius: 2em;
   }
 
   .lista-footer {
