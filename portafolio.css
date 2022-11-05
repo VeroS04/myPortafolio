@@ -12,7 +12,7 @@
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  background-color: #c5fcee;
+  background-color: #29715f;
   box-shadow: 0px 8px 30px 3px #d38dff;
 }
 
@@ -24,7 +24,7 @@
   align-items: center;
   margin-right: 4em;
   position: fixed;
-  background-color: #c5fcee;
+  background-color: transparent;
 }
 
 .lista-botones-navegacion {
@@ -36,6 +36,7 @@
 .boton-nav-inicio {
   color: #d38dff;
   padding: 0.5em 0.8em;
+  border-radius: 2em;
   border: solid 2px #c5fcee;
   font-weight: bold;
 }
@@ -49,7 +50,7 @@
 }
 
 .boton-nav-inicio:hover {
-  color: #008f7a;
+  color: #6bb4a9;
   border: solid 2px #008f7a;
   border-radius: 2em;
 }
@@ -93,8 +94,7 @@ ul {
 
 .saludo {
   color: #4e6fc3;
-  background: repeating-linear-gradient(#d38dff, #c5fcee, #55c6ae, #008f7a);
-  width: 100%;
+  background: #c5fcee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,7 +152,7 @@ ul {
 /* inicio conocimientos */
 
 .mis-conocimientos {
-  background: repeating-radial-gradient(#008f7a, #d38dff);
+  background: #e4f7f2;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -223,7 +223,10 @@ ul {
 
 .franja {
   color: #c5fcee;
-  background-color: #55c6ae;
+  /* background-color: #55c6ae; */
+  background-image: url(https://i.pinimg.com/236x/39/0f/4e/390f4e7c780df4a89182123290acdccf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   padding: 2%;
   display: flex;
@@ -256,7 +259,7 @@ ul {
 /* inicio proyectos */
 
 .mis-proyectos {
-  background: repeating-linear-gradient(#d38dff, #55c6ae);
+  background: #bffbec;
   width: 100%;
   text-align: center;
 }
@@ -318,7 +321,10 @@ ul {
 /* inicio contacto */
 
 .mi-contacto {
-  background: repeating-linear-gradient(#d38dff, #55c6ae);
+  /* background: repeating-linear-gradient(#d38dff, #55c6ae); */
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/959/238/small/light-multicolor-background-with-clouds-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 8% 10% 8% 10%;
   width: 100%;
   display: flex;
