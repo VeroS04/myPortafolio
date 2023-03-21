@@ -17,4 +17,4 @@
 
 ![gift](https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif)
 
-> Dentro de la página se encuentan los enlaces de contacto 📧.
+> Entra a mi [Porfolio](https://veros04.github.io/myPortafolio/) y contactame 😊.
